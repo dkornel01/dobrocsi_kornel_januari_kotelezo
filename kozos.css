@@ -1,0 +1,24 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: medium;
+}
+h1{
+    font-size: xx-large;
+}
+h2{
+    font-size: x-large;
+}
+a :hover{
+    color: blue;
+}
+a :active{
+    color: red;
+}
+a :visited{
+    color: blueviolet;
+}
+a{
+    color: crimson;
+}
