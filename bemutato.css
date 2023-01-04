@@ -1,0 +1,44 @@
+span{
+color: red;
+font-weight: bolder;
+font-family: 'Courier New', Courier, monospace;
+}
+table{
+    width: 40%;
+    border-collapse: collapse;
+}
+tr{
+    background-color: gold;
+}
+tbody tr:nth-child(odd){
+color: blueviolet;
+}
+tbody tr:nth-child(even){
+    color: aqua;
+}
+thead{
+    color: aqua;
+}
+.kepek{
+    width: 70%;
+    gap:60px;
+    margin: 100px 400px 100px 400px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+img{
+    border: 1px dashed yellowgreen;
+    transform: rotate(-5deg);
+}
+.left{
+    transform: rotate(10deg);
+}
+.kepek #giant{
+    width: 40%;
+}
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}

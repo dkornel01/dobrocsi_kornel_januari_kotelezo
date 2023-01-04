@@ -1,6 +1,9 @@
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
 }
+
 p{
     font-size: medium;
 }
@@ -21,4 +24,11 @@ a :visited{
 }
 a{
     color: crimson;
+}
+footer{
+    font-size: xx-large;
+}
+li{
+    float: left;
+    margin: 20px;
 }

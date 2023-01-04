@@ -6,10 +6,8 @@ aside{
 }
 nav{
     grid-area: n;
-    grid-template-columns: 1fr; ;
-}
-nav ul{
     grid-template-columns: 1fr;
+    display: grid;
 }
 header{
     grid-area: h;
