@@ -43,3 +43,12 @@ h2{
 h1{
     text-align: center;
 }
+@media screen and (max-width: 800px) {
+    main{
+    grid-template-areas: "n"
+                         "h"
+                         "a"
+                         "as"
+                         "f";
+    }
+}
