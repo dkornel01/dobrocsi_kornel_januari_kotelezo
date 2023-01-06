@@ -1,7 +1,7 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     background-image:url(kepek/10612792344_5907c4dfab_b.jpg);
-    color: white;
+    color: rgb(255, 0, 0);
 }
 p{
     font-size: medium;
@@ -31,4 +31,17 @@ footer{
 li{
     float: left;
     margin: 20px;
+}
+p{
+    margin: 40px;
+}
+h3{
+    margin: 40px;
+}
+
+h2{
+    margin: 40px;
+}
+a{
+    margin: 40px;
 }

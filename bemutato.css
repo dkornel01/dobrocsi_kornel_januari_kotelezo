@@ -46,3 +46,9 @@ h1{
 .formazas{
     text-align: center;
 }
+ol{
+    list-style: upper-roman;
+}
+table{
+    margin: 10px 30% 10px 30%
+}
