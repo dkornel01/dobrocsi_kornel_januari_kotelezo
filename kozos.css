@@ -12,14 +12,17 @@ h1{
 h2{
     font-size: x-large;
 }
-a :hover{
+a:link{
+    color: rgb(255, 15, 15);
+}
+a:hover{
     color: rgb(255, 62, 62);
 }
-a :active{
+a:active{
     color: red;
 }
-a :visited{
-    color: rgb(0, 0, 0);
+a:visited{
+    color: rgb(209, 0, 157);
 }
 
 footer{
