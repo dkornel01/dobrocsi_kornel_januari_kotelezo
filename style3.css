@@ -1,0 +1,35 @@
+article{
+    grid-area: a;
+}
+aside{
+    grid-area: as;
+}
+nav{
+    grid-area: n;
+    grid-template-columns: 1fr;
+    display: grid;
+}
+header{
+    grid-area: h;
+}
+footer{
+    grid-area: f;
+}
+main{
+    grid-template-areas: "n"
+                         "h"
+                         "a"
+                         "f";
+    display: grid;
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+img{
+    width: 20%;
+    margin: 0 41% 0 41%;
+}
