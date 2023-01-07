@@ -34,6 +34,7 @@ li{
 }
 p{
     margin: 40px;
+    text-align: justify;
 }
 h3{
     margin: 40px;
@@ -44,4 +45,32 @@ h2{
 }
 a{
     margin: 40px;
+}
+@media screen and (max-width: 800px) {
+a{
+    margin: 20px;
+}
+}
+body::-webkit-scrollbar{
+    width: 7px;
+    background:none;
+}
+body::-webkit-scrollbar-track{
+    border-radius: 7px;
+    max-height: 10%;
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: rgb(37, 131, 0);
+}
+nav{
+    grid-area: n;
+    grid-template-columns: 1fr ;
+    display: grid;
+}
+@media screen and (max-width: 500px) {
+    nav{
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+    }
 }
