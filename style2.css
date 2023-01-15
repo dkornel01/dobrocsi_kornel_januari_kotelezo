@@ -4,6 +4,7 @@ article{
 
 header{
     grid-area: h;
+    text-align: center;
 }
 footer{
     grid-area: f;
@@ -15,4 +16,5 @@ main{
                          "f";
     display: grid;
 }
+
 

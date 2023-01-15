@@ -1,7 +1,19 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     background-image:url(kepek/10612792344_5907c4dfab_b.jpg);
-    color: rgb(255, 0, 0);
+    color: royalblue;
+}
+main {
+    width: 90%;
+    margin: 0 5% 0 5%;
+    background-color: rgb(255, 245, 190);
+}
+nav {
+    background-color:navajowhite ;
+}
+nav ul{
+    list-style: none;
+    border: none;
 }
 p{
     font-size: medium;
@@ -13,16 +25,16 @@ h2{
     font-size: x-large;
 }
 a:link{
-    color: rgb(255, 15, 15);
+    color: red(255, 15, 15);
 }
 a:hover{
-    color: rgb(255, 62, 62);
+    color: green;
 }
 a:active{
-    color: red;
+    color: greenyellow;
 }
 a:visited{
-    color: rgb(209, 0, 157);
+    color:teal;
 }
 
 footer{
