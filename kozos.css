@@ -12,8 +12,10 @@ nav {
     background-color:navajowhite ;
 }
 nav ul{
-    list-style: none;
-    border: none;
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration-line: none;
 }
 p{
     font-size: medium;
